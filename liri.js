@@ -25,6 +25,4 @@ var T = new Twit({
 T.get('followers/ids', { screen_name: 'tolga_tezel' },  function (err, data, response) {
     console.log(data)
   })
-  T.post('statuses/retweet/:id', { id: '343360866131001345' }, function (err, data, response) {
-    console.log(data)
-  })
+
